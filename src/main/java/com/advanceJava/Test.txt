@@ -1,0 +1,72 @@
+
+
+Intermediate Operations
+Zero or more intermediate operations are allowed.
+Order matters for large datasets: filter first, then sort or map.
+For very large datasets use ParallelStream to enable multiple thi
+Intermediate operations include
+anyMatch()
+flatmap()
+distinct()
+ 
+ 
+skip()
+findFirst()
+sorted()
+
+******************************************************************
+
+   try(FileOutputStream fileStream=new FileOutputStream("javatpoint.txt");){  
+             String greeting = "Welcome to javaTpoint.";      
+                byte b[] = greeting.getBytes();       
+                fileStream.write(b);      
+                System.out.println("File written");           
+        }catch(Exception e) {  
+            System.out.println(e);  
+        }         
+
+
+*********************************************************************
+
+In earlier versions of Java,
+ underscore can be used as identifier and to create variable name also. 
+ But in Java 9 release, underscore is a keyword 
+ and can't be used as an identifier or variable name.
+
+If we use the underscore character ("_") as an identifier in Java 9, 
+our source code can no longer be compiled.
+
+
+******************************************************************
+
+
+instanceof
+
+        Integer i = new Integer(5);
+  
+        // prints true as i is instance of class
+        // Integer
+        System.out.println(i instanceof Integer);
+
+
+
+
+
+******************************************************************
+******************************************************************
+******************************************************************
+******************************************************************
+******************************************************************
+******************************************************************
+******************************************************************
+******************************************************************
+******************************************************************
+******************************************************************
+******************************************************************
+******************************************************************
+******************************************************************
+******************************************************************
+******************************************************************
+******************************************************************
+******************************************************************
+******************************************************************

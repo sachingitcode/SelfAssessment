@@ -1,0 +1,13 @@
+analyze criterias for algorithm optimisation
+1. time
+2. Space
+3. database connectivity
+4. data transfer (network bandwith)  :like using algo to concvert image into suc a bit form that it transfers easily on lower bandwith
+5. power consumption
+6. Cpu Registers
+
+
+
+
+
+

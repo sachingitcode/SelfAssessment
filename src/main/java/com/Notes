@@ -1,4 +1,5 @@
 analyze criterias for algorithm optimisation
+
 1. time
 2. Space
 3. database connectivity
@@ -7,7 +8,18 @@ analyze criterias for algorithm optimisation
 6. Cpu Registers
 
 
+use of factory method with overriding is present in apiservice3 for user/users with userVars
 
 
+Example Problem Solving Workflow
+Read the problem statement carefully.
+Identify the type of problem (e.g., searching, sorting, dynamic programming, etc.).
+Choose the appropriate data structure.
+Select the algorithmic approach.
+Write pseudocode to outline your solution.
+Implement the solution in code.
+Test your solution with various test cases.
+Analyze the complexity of your solution.
+Optimize if necessary.
 
 

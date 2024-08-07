@@ -69,7 +69,7 @@ public class CollectionUtils {
     }
 
     public static int[] getIntArray() {
-        int a[] = { 72, 11, 44, 19, 43, 46, 37, 99, 81, 35, 14, 64, 33, 63 };
+        int[] a = { 72, 11, 44, 19, 43, 46, 37, 99, 26, 81, 35, 14, 64, 33, 63 };
         return a;
     }
 }

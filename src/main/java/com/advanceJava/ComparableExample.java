@@ -32,9 +32,7 @@ It has method CompareTo() which compares the Object.
 public class ComparableExample {
 
     public static void main(String[] args) {
-
         List<Teacher> list = new LinkedList<Teacher>();
-
         list.add(new Teacher(4, "Sachin"));
         list.add(new Teacher(2, "Rahul"));
         list.add(new Teacher(1, "Amit"));
@@ -48,5 +46,5 @@ public class ComparableExample {
         for (Teacher teacher : list) {
             System.out.println("Teacher Name: " + teacher.name);
         }
-}
+    }
 }

@@ -26,9 +26,6 @@ public class ComparatorExample {
             System.out.println(student.roll + " - " + student.name + " - " + student.dept);
         }
 
-
-
-
         // Collections.sort(newList, Collections.reverseOrder());
 
         Comparator <Student> cmp = Comparator.comparing(Student::getName);

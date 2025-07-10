@@ -21,6 +21,8 @@ interface Printable {
     void print();
 }
 
+
+
 public class SimpleInterface1 implements Printable {
     public void print() {
         System.out.println(" Inside Printable  ");
@@ -30,6 +32,22 @@ public class SimpleInterface1 implements Printable {
         SimpleInterface1 intface = new SimpleInterface1();
         intface.print();
 
+        Printable p = (() -> System.out.println("Inside Printable  "));
+        p.print();
+
     }
 
+}
+
+/* THIS IS FUNCTIONAL INTERFACE  IMPL*/
+
+/* Simply call the Interface name to   */
+
+class Testing { //implements Printable *NOTE HERE we are not implementing *
+    public void func(String[] args) {
+        Printable p = () -> {
+            System.out.println("Print My pet ");
+        };
+        p.print();
+    }
 }

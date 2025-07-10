@@ -14,7 +14,12 @@ public class CollectionUtils {
      * These methods are useful to create small number of collection.
      */
     public static List<String> sampleList() {
-        List<String> list = List.of("Java", "JavaFX", "Spring", "Hibernate", "JSP" , "Spring" , "JSP", "Spring", "JDBC");
+        List<String> list = List.of("Java", "JavaFX", "Spring", "Hibernate", "JSP", "Spring", "JSP", "Spring", "JDBC");
+        return list;
+    }
+
+    public static List<Integer> sampleIntList() {
+        List<Integer> list = List.of(1, 3, 9, 8, 5, 7, 3, 6, 8, 0);
         return list;
     }
 
@@ -31,11 +36,10 @@ public class CollectionUtils {
         list.add(new Student(4, "Puneet", "Eco", 14));
         list.add(new Student(6, "Pooja", "Mech", 82));
         list.add(new Student(8, "Manish", "Comp", 12));
-
         return list;
     }
 
-    public static Map<Integer, Book>  getBookMap() {
+    public static Map<Integer, Book> getBookMap() {
         Map<Integer, Book> map = new HashMap<Integer, Book>();
 
         map.put(1, new Book(101, "Let us C", "Yashwant Kanetkar", "BPB", 80));
@@ -72,13 +76,18 @@ public class CollectionUtils {
         int[] a = { 72, 11, 44, 19, 43, 46, 37, 99, 26, 81, 35, 14, 64, 33, 63 };
         return a;
     }
+
+    public static int[] getShortIntArray() {
+        int[] a = { 5, 4, 7, 2, 1, 3 };
+        return a;
+    }
 }
 
 class Student {
-    int roll;
-    String name;
-    String dept;
-    int marks;
+    public int roll;
+    public String name;
+    public String dept;
+    public int marks;
 
     public Student(int roll, String name, String dept, int marks) {
         this.roll = roll;
@@ -114,10 +123,10 @@ class Product {
     int id;
     String name;
     float price;
-  
+
     public Product(int id, String name, float price) {
-      this.id = id;
-      this.name = name;
-      this.price = price;
+        this.id = id;
+        this.name = name;
+        this.price = price;
     }
-  }
+}

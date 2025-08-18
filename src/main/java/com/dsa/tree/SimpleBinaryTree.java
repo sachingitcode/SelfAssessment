@@ -15,7 +15,6 @@ public class SimpleBinaryTree {
     }
 }
 
-
 class BTreeImpl {
     Node root;
 
@@ -28,7 +27,8 @@ class BTreeImpl {
             root = new Node(data);// root
         else if (data < root.value)
             root.left = insert(root.left, data);
-        else root.right = insert(root.right, data);
+        else
+            root.right = insert(root.right, data);
         return root;
     }
 
@@ -41,15 +41,16 @@ class BTreeImpl {
             inOrder(node.left);
             System.out.print(node.value + " ");
             inOrder(node.right);
+
         }
     }
 }
 
-//class Node {
-//    Node left;
-//    Node right;
-//    int data;
-//    public Node(int data) {
-//        this.data = data;
-//    }
-//}
+// class Node {
+// Node left;
+// Node right;
+// int data;
+// public Node(int data) {
+// this.data = data;
+// }
+// }

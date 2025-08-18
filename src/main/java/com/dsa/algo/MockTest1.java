@@ -64,7 +64,10 @@ public class MockTest1 {
     }
 
     private static void twoWayMerge(int[] a, int beg, int mid, int end) {
+        
     }
+
+
 
     private static void merger(int[] a, int l, int h) {
         if (l < h) {

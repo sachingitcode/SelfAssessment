@@ -17,6 +17,7 @@ public class BinaryTree2 {
 
     public static void add(int value) {
         root = createTree(root, value);
+        
     }
 
     // It is a Balanced Binary Tree where left Size is less and right is more than node

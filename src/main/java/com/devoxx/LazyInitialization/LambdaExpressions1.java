@@ -11,6 +11,7 @@ public class LambdaExpressions1 {
 
     public static void main(String[] args) {
         int value = 4;
+        String tmp ="";
         int temp = compute(value);
        if (value > 4 && temp > 100) {    // Here It is Eager initialization . Here Compute is Called, though it is not needed.
            System.out.println("Part 1 with " + temp);

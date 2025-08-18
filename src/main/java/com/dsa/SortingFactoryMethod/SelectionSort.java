@@ -1,4 +1,4 @@
-package com.dsa;
+package com.dsa.SortingFactoryMethod;
 
 import java.util.Arrays;
 

@@ -7,7 +7,8 @@ public class SimpleMatrixMultiply implements Sorting {
     @Override
     public void startSort(int[] a) {
         startMultiple();
-        int[][][] matrix = {{{1}, {2}, {2}, {1}, {2}, {2}, {2}, {1, 5}},
+        int[][][] matrix = {
+            { {1}, {2}, {2}, {1}, {2}, {2}, {2}, {1, 5} },
                 {{5}, {6}, {2}, {1}, {5, 6, 7, 8, 9}},
                 {{5, 6, 7, 8, 9}},
                 {{9, 9, 9, 9, 9}}
